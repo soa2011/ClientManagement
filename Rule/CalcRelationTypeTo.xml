@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sch:Rule xmlns:sch="http://Baf.com/schemas" name="CalcRelationTypeTo">
+    <sch:name>CalcRelationTypeTo</sch:name>
+    <sch:tableName></sch:tableName>
+    <sch:referenceName></sch:referenceName>
+    <sch:referenceNumber></sch:referenceNumber>
+    <sch:ruleType></sch:ruleType>
+    <sch:ruleCode></sch:ruleCode>
+    <sch:ruleLanguage>Set</sch:ruleLanguage>
+    <sch:ruleBody>RelationshipTypeTo</sch:ruleBody>
+    <sch:seqNumber>3</sch:seqNumber>
+</sch:Rule>

@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<sch:DomainTable xmlns:sch="http://Baf.com/schemas" name="RelationshipName">
+    <sch:name>RelationshipName</sch:name>
+    <sch:domainType>LIST_OF_VALUES</sch:domainType>
+    <sch:description></sch:description>
+    <sch:domainKeys/>
+    <sch:domainEntries>
+        <sch:BmfDomainEntry>
+            <sch:seqNumber>1</sch:seqNumber>
+            <sch:displayValue>Affiliated Hospital</sch:displayValue>
+            <sch:dataValue>Affiliated Hospital</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
+        </sch:BmfDomainEntry>
+        <sch:BmfDomainEntry>
+            <sch:seqNumber>2</sch:seqNumber>
+            <sch:displayValue>Affiliated With Hospital</sch:displayValue>
+            <sch:dataValue>Affiliated With Hospital</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
+        </sch:BmfDomainEntry>
+        <sch:BmfDomainEntry>
+            <sch:seqNumber>3</sch:seqNumber>
+            <sch:displayValue>Affiliated With Purchasing Group</sch:displayValue>
+            <sch:dataValue>Affiliated With Purchasing Group</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
+        </sch:BmfDomainEntry>
+        <sch:BmfDomainEntry>
+            <sch:seqNumber>4</sch:seqNumber>
+            <sch:displayValue>Claimant other</sch:displayValue>
+            <sch:dataValue>Claimant other</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
+        </sch:BmfDomainEntry>
+        <sch:BmfDomainEntry>
+            <sch:seqNumber>5</sch:seqNumber>
+            <sch:displayValue>Employed Physician</sch:displayValue>
+            <sch:dataValue>Employed Physician</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
+        </sch:BmfDomainEntry>
+        <sch:BmfDomainEntry>
+            <sch:seqNumber>6</sch:seqNumber>
+            <sch:displayValue>Employee Of</sch:displayValue>
+            <sch:dataValue>Employee Of</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
+        </sch:BmfDomainEntry>
+        <sch:BmfDomainEntry>
+            <sch:seqNumber>7</sch:seqNumber>
+            <sch:displayValue>Employer For</sch:displayValue>
+            <sch:dataValue>Employer For</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
+        </sch:BmfDomainEntry>
+        <sch:BmfDomainEntry>
+            <sch:seqNumber>8</sch:seqNumber>
+            <sch:displayValue>Employing Physician</sch:displayValue>
+            <sch:dataValue>Employing Physician</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
+        </sch:BmfDomainEntry>
+        <sch:BmfDomainEntry>
+            <sch:seqNumber>9</sch:seqNumber>
+            <sch:displayValue>Agent Agency</sch:displayValue>
+            <sch:dataValue>Agent Agency</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
+        </sch:BmfDomainEntry>
+        <sch:BmfDomainEntry>
+            <sch:seqNumber>10</sch:seqNumber>
+            <sch:displayValue>Member Entity</sch:displayValue>
+            <sch:dataValue>Member Entity</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
+        </sch:BmfDomainEntry>
+        <sch:BmfDomainEntry>
+            <sch:seqNumber>11</sch:seqNumber>
+            <sch:displayValue>Member Of</sch:displayValue>
+            <sch:dataValue>Member Of</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
+        </sch:BmfDomainEntry>
+        <sch:BmfDomainEntry>
+            <sch:seqNumber>12</sch:seqNumber>
+            <sch:displayValue>Plan Billing</sch:displayValue>
+            <sch:dataValue>Plan Billing</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
+        </sch:BmfDomainEntry>
+        <sch:BmfDomainEntry>
+            <sch:seqNumber>13</sch:seqNumber>
+            <sch:displayValue>Prior Carrior</sch:displayValue>
+            <sch:dataValue>Prior Carrior</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
+        </sch:BmfDomainEntry>
+        <sch:BmfDomainEntry>
+            <sch:seqNumber>14</sch:seqNumber>
+            <sch:displayValue>Shareholder</sch:displayValue>
+            <sch:dataValue>Shareholder</sch:dataValue>
+            <sch:keyValues>{}</sch:keyValues>
+        </sch:BmfDomainEntry>
+    </sch:domainEntries>
+</sch:DomainTable>
