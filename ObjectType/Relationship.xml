@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <sch:ObjectType xmlns:sch="http://Baf.com/schemas" name="Relationship">
     <sch:name>Relationship</sch:name>
-    <sch:tableType>Virtual</sch:tableType>
+    <sch:tableType>System</sch:tableType>
     <sch:archetype>NORMAL</sch:archetype>
     <sch:parentTypeName></sch:parentTypeName>
     <sch:superTypeName></sch:superTypeName>
-    <sch:accessMode></sch:accessMode>
+    <sch:accessMode>TableDirect</sch:accessMode>
     <sch:primaryKey></sch:primaryKey>
     <sch:description></sch:description>
     <sch:bmfRelationships>
