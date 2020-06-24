@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <sch:ObjectType xmlns:sch="http://Baf.com/schemas" name="ClientCommunication">
     <sch:name>ClientCommunication</sch:name>
-    <sch:tableType>Virtual</sch:tableType>
+    <sch:tableType>System</sch:tableType>
     <sch:archetype>NORMAL</sch:archetype>
     <sch:parentTypeName></sch:parentTypeName>
     <sch:superTypeName></sch:superTypeName>
