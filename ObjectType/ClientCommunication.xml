@@ -11,6 +11,17 @@
     <sch:bmfRelationships>
         <sch:BmfObjectRelationship>
             <sch:type>REF_TO_ONE</sch:type>
+            <sch:name>ClientId</sch:name>
+            <sch:displayName></sch:displayName>
+            <sch:description></sch:description>
+            <sch:relatedObjectType>Client</sch:relatedObjectType>
+            <sch:joinField></sch:joinField>
+            <sch:lowerBound>0</sch:lowerBound>
+            <sch:upperBound>1</sch:upperBound>
+            <sch:containment>false</sch:containment>
+        </sch:BmfObjectRelationship>
+        <sch:BmfObjectRelationship>
+            <sch:type>REF_TO_ONE</sch:type>
             <sch:name>DocumentTemplateId</sch:name>
             <sch:displayName></sch:displayName>
             <sch:description>文档Item模板</sch:description>
@@ -51,7 +62,7 @@
             <sch:description>实际时间</sch:description>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
-            <sch:name>RefKey</sch:name>
+            <sch:name>SendTo</sch:name>
             <sch:dataType>Char</sch:dataType>
             <sch:enumName></sch:enumName>
             <sch:length>64</sch:length>
