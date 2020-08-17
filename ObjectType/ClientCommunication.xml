@@ -2,10 +2,11 @@
 <sch:ObjectType xmlns:sch="http://Baf.com/schemas" name="ClientCommunication">
     <sch:name>ClientCommunication</sch:name>
     <sch:tableType>System</sch:tableType>
-    <sch:archetype>NORMAL</sch:archetype>
-    <sch:parentTypeName></sch:parentTypeName>
+    <sch:archeType>NORMAL</sch:archeType>
+    <sch:parentTypeName>ClientManagement</sch:parentTypeName>
     <sch:superTypeName></sch:superTypeName>
     <sch:accessMode></sch:accessMode>
+    <sch:primaryField></sch:primaryField>
     <sch:primaryKey></sch:primaryKey>
     <sch:description></sch:description>
     <sch:bmfRelationships>
@@ -133,9 +134,9 @@
         </sch:BmfObjectField>
         <sch:BmfObjectField>
             <sch:name>Content</sch:name>
-            <sch:dataType>Char</sch:dataType>
+            <sch:dataType>Clob</sch:dataType>
             <sch:enumName></sch:enumName>
-            <sch:length>512</sch:length>
+            <sch:length></sch:length>
             <sch:scale></sch:scale>
             <sch:autoIncrement>false</sch:autoIncrement>
             <sch:calculated>false</sch:calculated>
@@ -202,4 +203,17 @@
             <sch:description></sch:description>
         </sch:BmfObjectField>
     </sch:bmfFields>
+    <sch:bmfRules>
+        <sch:BmfRule>
+            <sch:name>ClientCommunication</sch:name>
+            <sch:objectTypeName>ClientCommunication</sch:objectTypeName>
+            <sch:referenceName></sch:referenceName>
+            <sch:fieldName></sch:fieldName>
+            <sch:ruleType>Update</sch:ruleType>
+            <sch:ruleCode></sch:ruleCode>
+            <sch:ruleLanguage></sch:ruleLanguage>
+            <sch:ruleBody>clientAggrManager.updateClientComm(context)</sch:ruleBody>
+            <sch:seqNumber>1</sch:seqNumber>
+        </sch:BmfRule>
+    </sch:bmfRules>
 </sch:ObjectType>

@@ -6,7 +6,6 @@
     <sch:domainKeys>
         <sch:BmfDomainKey>
             <sch:seqNo>1</sch:seqNo>
-            <sch:domainKeyId></sch:domainKeyId>
             <sch:domainTableId></sch:domainTableId>
             <sch:domainTableReference></sch:domainTableReference>
             <sch:name>StateList</sch:name>
@@ -17,7 +16,6 @@
         </sch:BmfDomainKey>
         <sch:BmfDomainKey>
             <sch:seqNo>2</sch:seqNo>
-            <sch:domainKeyId></sch:domainKeyId>
             <sch:domainTableId></sch:domainTableId>
             <sch:domainTableReference></sch:domainTableReference>
             <sch:name>CountyList</sch:name>

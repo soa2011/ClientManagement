@@ -2,10 +2,11 @@
 <sch:ObjectType xmlns:sch="http://Baf.com/schemas" name="ClientAgreement">
     <sch:name>ClientAgreement</sch:name>
     <sch:tableType>Virtual</sch:tableType>
-    <sch:archetype>NORMAL</sch:archetype>
-    <sch:parentTypeName></sch:parentTypeName>
+    <sch:archeType>NORMAL</sch:archeType>
+    <sch:parentTypeName>Client</sch:parentTypeName>
     <sch:superTypeName></sch:superTypeName>
     <sch:accessMode></sch:accessMode>
+    <sch:primaryField></sch:primaryField>
     <sch:primaryKey></sch:primaryKey>
     <sch:description></sch:description>
     <sch:bmfRelationships/>
@@ -613,4 +614,5 @@
             <sch:description></sch:description>
         </sch:BmfObjectField>
     </sch:bmfFields>
+    <sch:bmfRules/>
 </sch:ObjectType>
