@@ -284,7 +284,7 @@
     <sch:treeNodes/>
     <sch:buttons>
         <sch:BmfPageButton>
-            <sch:seqNo>600</sch:seqNo>
+            <sch:seqNumber>600</sch:seqNumber>
             <sch:buttonName>SendEmail</sch:buttonName>
             <sch:displayCondition></sch:displayCondition>
             <sch:displayResource></sch:displayResource>

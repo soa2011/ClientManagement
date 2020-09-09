@@ -157,7 +157,7 @@
             <sch:filterType></sch:filterType>
             <sch:display>true</sch:display>
             <sch:required>false</sch:required>
-            <sch:displayCondition>$('#ClientType').val() == 'Individual'</sch:displayCondition>
+            <sch:displayCondition>data.ClientType == 'Individual'</sch:displayCondition>
             <sch:requiredCondition></sch:requiredCondition>
             <sch:readOnlyCondition></sch:readOnlyCondition>
             <sch:displayResource></sch:displayResource>
@@ -207,7 +207,7 @@
             <sch:filterType></sch:filterType>
             <sch:display>true</sch:display>
             <sch:required>false</sch:required>
-            <sch:displayCondition>$('#ClientType').val() == 'Individual'</sch:displayCondition>
+            <sch:displayCondition>data.ClientType == 'Individual'</sch:displayCondition>
             <sch:requiredCondition></sch:requiredCondition>
             <sch:readOnlyCondition></sch:readOnlyCondition>
             <sch:displayResource></sch:displayResource>
@@ -257,7 +257,7 @@
             <sch:filterType></sch:filterType>
             <sch:display>true</sch:display>
             <sch:required>false</sch:required>
-            <sch:displayCondition>$('#ClientType').val() == 'Individual'</sch:displayCondition>
+            <sch:displayCondition>data.ClientType == 'Individual'</sch:displayCondition>
             <sch:requiredCondition></sch:requiredCondition>
             <sch:readOnlyCondition></sch:readOnlyCondition>
             <sch:displayResource></sch:displayResource>
@@ -460,7 +460,7 @@
             <sch:filterType></sch:filterType>
             <sch:display>true</sch:display>
             <sch:required>false</sch:required>
-            <sch:displayCondition>$('#ClientType').val() == 'Individual'</sch:displayCondition>
+            <sch:displayCondition>data.ClientType == 'Individual'</sch:displayCondition>
             <sch:requiredCondition></sch:requiredCondition>
             <sch:readOnlyCondition></sch:readOnlyCondition>
             <sch:displayResource></sch:displayResource>
@@ -560,7 +560,7 @@
             <sch:filterType></sch:filterType>
             <sch:display>true</sch:display>
             <sch:required>false</sch:required>
-            <sch:displayCondition>$('#ClientType').val() == 'Organization'</sch:displayCondition>
+            <sch:displayCondition>data.ClientType == 'Organization'</sch:displayCondition>
             <sch:requiredCondition></sch:requiredCondition>
             <sch:readOnlyCondition></sch:readOnlyCondition>
             <sch:displayResource></sch:displayResource>
@@ -610,7 +610,7 @@
             <sch:filterType></sch:filterType>
             <sch:display>true</sch:display>
             <sch:required>false</sch:required>
-            <sch:displayCondition>$('#ClientType').val() == 'Organization'</sch:displayCondition>
+            <sch:displayCondition>data.ClientType == 'Organization'</sch:displayCondition>
             <sch:requiredCondition></sch:requiredCondition>
             <sch:readOnlyCondition></sch:readOnlyCondition>
             <sch:displayResource></sch:displayResource>
@@ -886,7 +886,7 @@
     <sch:treeNodes/>
     <sch:buttons>
         <sch:BmfPageButton>
-            <sch:seqNo>1600</sch:seqNo>
+            <sch:seqNumber>1600</sch:seqNumber>
             <sch:buttonName>AddAnother</sch:buttonName>
             <sch:displayCondition></sch:displayCondition>
             <sch:displayResource></sch:displayResource>
@@ -896,7 +896,7 @@
             <sch:bmfButton isRef="true">AddAnother</sch:bmfButton>
         </sch:BmfPageButton>
         <sch:BmfPageButton>
-            <sch:seqNo>1700</sch:seqNo>
+            <sch:seqNumber>1700</sch:seqNumber>
             <sch:buttonName>CopyAnother</sch:buttonName>
             <sch:displayCondition></sch:displayCondition>
             <sch:displayResource></sch:displayResource>

@@ -214,6 +214,7 @@
             <sch:ruleLanguage></sch:ruleLanguage>
             <sch:ruleBody>clientAggrManager.updateClientComm(context)</sch:ruleBody>
             <sch:seqNumber>1</sch:seqNumber>
+            <sch:description></sch:description>
         </sch:BmfRule>
     </sch:bmfRules>
 </sch:ObjectType>

@@ -432,7 +432,7 @@
     <sch:treeNodes/>
     <sch:buttons>
         <sch:BmfPageButton>
-            <sch:seqNo>700</sch:seqNo>
+            <sch:seqNumber>700</sch:seqNumber>
             <sch:buttonName>ViewAgreementRequest</sch:buttonName>
             <sch:displayCondition></sch:displayCondition>
             <sch:displayResource></sch:displayResource>
@@ -442,7 +442,7 @@
             <sch:bmfButton isRef="true">ViewAgreementRequest</sch:bmfButton>
         </sch:BmfPageButton>
         <sch:BmfPageButton>
-            <sch:seqNo>400</sch:seqNo>
+            <sch:seqNumber>400</sch:seqNumber>
             <sch:buttonName>Delete</sch:buttonName>
             <sch:displayCondition></sch:displayCondition>
             <sch:displayResource></sch:displayResource>
@@ -452,7 +452,7 @@
             <sch:bmfButton isRef="true">Delete</sch:bmfButton>
         </sch:BmfPageButton>
         <sch:BmfPageButton>
-            <sch:seqNo>500</sch:seqNo>
+            <sch:seqNumber>500</sch:seqNumber>
             <sch:buttonName>Copy</sch:buttonName>
             <sch:displayCondition></sch:displayCondition>
             <sch:displayResource></sch:displayResource>
@@ -462,7 +462,7 @@
             <sch:bmfButton isRef="true">Copy</sch:bmfButton>
         </sch:BmfPageButton>
         <sch:BmfPageButton>
-            <sch:seqNo>600</sch:seqNo>
+            <sch:seqNumber>600</sch:seqNumber>
             <sch:buttonName>DeepCopy</sch:buttonName>
             <sch:displayCondition></sch:displayCondition>
             <sch:displayResource></sch:displayResource>

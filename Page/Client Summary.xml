@@ -532,7 +532,7 @@
     <sch:treeNodes/>
     <sch:buttons>
         <sch:BmfPageButton>
-            <sch:seqNo>700</sch:seqNo>
+            <sch:seqNumber>700</sch:seqNumber>
             <sch:buttonName>ViewFinancialReport</sch:buttonName>
             <sch:displayCondition></sch:displayCondition>
             <sch:displayResource></sch:displayResource>

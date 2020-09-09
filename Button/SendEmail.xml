@@ -1,6 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <sch:Button xmlns:sch="http://Baf.com/schemas" name="SendEmail">
-    <sch:seqIndex>23</sch:seqIndex>
     <sch:name>SendEmail</sch:name>
     <sch:label>Send &amp;Email</sch:label>
     <sch:behavior>ExecuteJavaScript</sch:behavior>
