@@ -8,7 +8,13 @@
     <sch:accessMode>TableDirect</sch:accessMode>
     <sch:primaryField></sch:primaryField>
     <sch:primaryKey></sch:primaryKey>
+    <sch:baseTables></sch:baseTables>
+    <sch:viewInfo></sch:viewInfo>
+    <sch:hierarchyColumn></sch:hierarchyColumn>
     <sch:description></sch:description>
+    <sch:aggrRoot>false</sch:aggrRoot>
+    <sch:changeType></sch:changeType>
+    <sch:changeFields></sch:changeFields>
     <sch:bmfRelationships>
         <sch:BmfObjectRelationship>
             <sch:type>REF_TO_MANY</sch:type>
@@ -157,6 +163,8 @@
             <sch:seqPattern></sch:seqPattern>
             <sch:calcExpr></sch:calcExpr>
             <sch:description></sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
             <sch:name>Prefix</sch:name>
@@ -171,6 +179,8 @@
             <sch:seqPattern></sch:seqPattern>
             <sch:calcExpr></sch:calcExpr>
             <sch:description></sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
             <sch:name>FirstName</sch:name>
@@ -185,6 +195,8 @@
             <sch:seqPattern></sch:seqPattern>
             <sch:calcExpr></sch:calcExpr>
             <sch:description></sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
             <sch:name>MiddleName</sch:name>
@@ -199,6 +211,8 @@
             <sch:seqPattern></sch:seqPattern>
             <sch:calcExpr></sch:calcExpr>
             <sch:description></sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
             <sch:name>LastName</sch:name>
@@ -213,6 +227,8 @@
             <sch:seqPattern></sch:seqPattern>
             <sch:calcExpr></sch:calcExpr>
             <sch:description></sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
             <sch:name>SoundsLike</sch:name>
@@ -227,6 +243,8 @@
             <sch:seqPattern></sch:seqPattern>
             <sch:calcExpr></sch:calcExpr>
             <sch:description></sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
             <sch:name>NameHistory</sch:name>
@@ -241,6 +259,8 @@
             <sch:seqPattern></sch:seqPattern>
             <sch:calcExpr></sch:calcExpr>
             <sch:description></sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
             <sch:name>IdNumber</sch:name>
@@ -255,6 +275,8 @@
             <sch:seqPattern></sch:seqPattern>
             <sch:calcExpr></sch:calcExpr>
             <sch:description></sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
             <sch:name>IdType</sch:name>
@@ -269,6 +291,8 @@
             <sch:seqPattern></sch:seqPattern>
             <sch:calcExpr></sch:calcExpr>
             <sch:description>证件类型</sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
             <sch:name>IdValid</sch:name>
@@ -283,6 +307,8 @@
             <sch:seqPattern></sch:seqPattern>
             <sch:calcExpr></sch:calcExpr>
             <sch:description>实名认证</sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
             <sch:name>Gender</sch:name>
@@ -297,6 +323,8 @@
             <sch:seqPattern></sch:seqPattern>
             <sch:calcExpr></sch:calcExpr>
             <sch:description></sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
             <sch:name>CompanyId</sch:name>
@@ -311,6 +339,8 @@
             <sch:seqPattern></sch:seqPattern>
             <sch:calcExpr></sch:calcExpr>
             <sch:description></sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
             <sch:name>Type</sch:name>
@@ -325,6 +355,8 @@
             <sch:seqPattern></sch:seqPattern>
             <sch:calcExpr></sch:calcExpr>
             <sch:description></sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
             <sch:name>DateOfBirth</sch:name>
@@ -339,6 +371,8 @@
             <sch:seqPattern></sch:seqPattern>
             <sch:calcExpr></sch:calcExpr>
             <sch:description></sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
             <sch:name>DateEstablished</sch:name>
@@ -353,6 +387,8 @@
             <sch:seqPattern></sch:seqPattern>
             <sch:calcExpr></sch:calcExpr>
             <sch:description></sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
             <sch:name>Email</sch:name>
@@ -367,6 +403,8 @@
             <sch:seqPattern></sch:seqPattern>
             <sch:calcExpr></sch:calcExpr>
             <sch:description></sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
             <sch:name>EMailType</sch:name>
@@ -381,6 +419,8 @@
             <sch:seqPattern></sch:seqPattern>
             <sch:calcExpr></sch:calcExpr>
             <sch:description></sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
             <sch:name>PhoneNumber</sch:name>
@@ -395,6 +435,8 @@
             <sch:seqPattern></sch:seqPattern>
             <sch:calcExpr></sch:calcExpr>
             <sch:description></sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
             <sch:name>FaxNumber</sch:name>
@@ -409,6 +451,8 @@
             <sch:seqPattern></sch:seqPattern>
             <sch:calcExpr></sch:calcExpr>
             <sch:description></sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
             <sch:name>MobilePhoneNumber</sch:name>
@@ -423,6 +467,8 @@
             <sch:seqPattern></sch:seqPattern>
             <sch:calcExpr></sch:calcExpr>
             <sch:description></sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
             <sch:name>Country</sch:name>
@@ -437,6 +483,8 @@
             <sch:seqPattern></sch:seqPattern>
             <sch:calcExpr></sch:calcExpr>
             <sch:description></sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
             <sch:name>PostalCode</sch:name>
@@ -451,6 +499,8 @@
             <sch:seqPattern></sch:seqPattern>
             <sch:calcExpr></sch:calcExpr>
             <sch:description></sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
             <sch:name>AddressLine1</sch:name>
@@ -465,6 +515,8 @@
             <sch:seqPattern></sch:seqPattern>
             <sch:calcExpr></sch:calcExpr>
             <sch:description></sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
             <sch:name>AddressLine2</sch:name>
@@ -479,6 +531,8 @@
             <sch:seqPattern></sch:seqPattern>
             <sch:calcExpr></sch:calcExpr>
             <sch:description></sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
             <sch:name>AddressLine3</sch:name>
@@ -493,6 +547,8 @@
             <sch:seqPattern></sch:seqPattern>
             <sch:calcExpr></sch:calcExpr>
             <sch:description></sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
             <sch:name>City</sch:name>
@@ -507,6 +563,8 @@
             <sch:seqPattern></sch:seqPattern>
             <sch:calcExpr></sch:calcExpr>
             <sch:description></sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
             <sch:name>State</sch:name>
@@ -521,6 +579,8 @@
             <sch:seqPattern></sch:seqPattern>
             <sch:calcExpr></sch:calcExpr>
             <sch:description></sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
             <sch:name>ClientDescription</sch:name>
@@ -535,6 +595,8 @@
             <sch:seqPattern></sch:seqPattern>
             <sch:calcExpr></sch:calcExpr>
             <sch:description></sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
             <sch:name>WebSite</sch:name>
@@ -549,6 +611,8 @@
             <sch:seqPattern></sch:seqPattern>
             <sch:calcExpr></sch:calcExpr>
             <sch:description></sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
             <sch:name>PhotoData</sch:name>
@@ -563,6 +627,8 @@
             <sch:seqPattern></sch:seqPattern>
             <sch:calcExpr></sch:calcExpr>
             <sch:description></sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
             <sch:name>Photo</sch:name>
@@ -577,6 +643,8 @@
             <sch:seqPattern></sch:seqPattern>
             <sch:calcExpr></sch:calcExpr>
             <sch:description></sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
             <sch:name>CreatedBy</sch:name>
@@ -591,6 +659,8 @@
             <sch:seqPattern></sch:seqPattern>
             <sch:calcExpr></sch:calcExpr>
             <sch:description></sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
             <sch:name>CreatedOn</sch:name>
@@ -605,6 +675,8 @@
             <sch:seqPattern></sch:seqPattern>
             <sch:calcExpr></sch:calcExpr>
             <sch:description></sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
             <sch:name>UpdatedBy</sch:name>
@@ -619,6 +691,8 @@
             <sch:seqPattern></sch:seqPattern>
             <sch:calcExpr></sch:calcExpr>
             <sch:description></sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
             <sch:name>UpdatedOn</sch:name>
@@ -633,7 +707,11 @@
             <sch:seqPattern></sch:seqPattern>
             <sch:calcExpr></sch:calcExpr>
             <sch:description></sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
     </sch:bmfFields>
     <sch:bmfRules/>
+    <sch:bmfIndexRules/>
+    <sch:objectTypeConfigs/>
 </sch:ObjectType>

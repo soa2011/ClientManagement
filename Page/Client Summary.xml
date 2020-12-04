@@ -6,12 +6,12 @@
     <sch:pageCondition></sch:pageCondition>
     <sch:title></sch:title>
     <sch:seqNumber>100</sch:seqNumber>
-    <sch:tableName>Client</sch:tableName>
-    <sch:quoteDisplay>false</sch:quoteDisplay>
+    <sch:objectTypeName>Client</sch:objectTypeName>
+    <sch:display>false</sch:display>
     <sch:labelColWidth>0</sch:labelColWidth>
     <sch:valueColWidth>0</sch:valueColWidth>
     <sch:numberOfColumns>0</sch:numberOfColumns>
-    <sch:defaultSort></sch:defaultSort>
+    <sch:defaultSort>FirstName ASC</sch:defaultSort>
     <sch:defaultDir></sch:defaultDir>
     <sch:labelOrientation></sch:labelOrientation>
     <sch:relatedRule></sch:relatedRule>
@@ -19,13 +19,14 @@
     <sch:modifyResource></sch:modifyResource>
     <sch:displayResource2></sch:displayResource2>
     <sch:modifyResource2></sch:modifyResource2>
-    <sch:prevPage></sch:prevPage>
-    <sch:nextPage></sch:nextPage>
     <sch:path></sch:path>
     <sch:description></sch:description>
+    <sch:changeType></sch:changeType>
+    <sch:changeFields></sch:changeFields>
     <sch:clientSideController></sch:clientSideController>
     <sch:serverSideController></sch:serverSideController>
     <sch:objectType isRef="true">Client</sch:objectType>
+    <sch:pageAreas/>
     <sch:fields>
         <sch:BmfPageField>
             <sch:name>ClientType</sch:name>
@@ -34,7 +35,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType></sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>Client Type</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -76,6 +76,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>CompanyId</sch:name>
@@ -84,7 +86,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType></sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>平台商</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -126,6 +127,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>FirstName</sch:name>
@@ -134,7 +137,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType></sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>姓名/公司名</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -176,6 +178,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>Gender</sch:name>
@@ -184,7 +188,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType></sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>性别</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -226,6 +229,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>MobilePhoneNumber</sch:name>
@@ -234,7 +239,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType></sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>手机号码</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -276,6 +280,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>IdValid</sch:name>
@@ -284,7 +290,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType></sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>实名认证</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -326,6 +331,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>IdType</sch:name>
@@ -334,7 +341,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType></sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>证件类型</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -376,6 +382,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>IdNumber</sch:name>
@@ -384,7 +392,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType></sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>证件号码</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -426,6 +433,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>DateOfBirth</sch:name>
@@ -434,7 +443,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType></sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>出生日期</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -476,6 +484,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>CreatedOn</sch:name>
@@ -484,7 +494,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>DateTime</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>CreatedOn</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -526,6 +535,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
     </sch:fields>
     <sch:variables/>

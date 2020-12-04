@@ -6,8 +6,8 @@
     <sch:pageCondition></sch:pageCondition>
     <sch:title></sch:title>
     <sch:seqNumber>1300</sch:seqNumber>
-    <sch:tableName>ClientAgreement</sch:tableName>
-    <sch:quoteDisplay>false</sch:quoteDisplay>
+    <sch:objectTypeName>ClientAgreement</sch:objectTypeName>
+    <sch:display>false</sch:display>
     <sch:labelColWidth>0</sch:labelColWidth>
     <sch:valueColWidth>0</sch:valueColWidth>
     <sch:numberOfColumns>0</sch:numberOfColumns>
@@ -19,13 +19,14 @@
     <sch:modifyResource></sch:modifyResource>
     <sch:displayResource2></sch:displayResource2>
     <sch:modifyResource2></sch:modifyResource2>
-    <sch:prevPage></sch:prevPage>
-    <sch:nextPage></sch:nextPage>
     <sch:path></sch:path>
     <sch:description></sch:description>
+    <sch:changeType></sch:changeType>
+    <sch:changeFields></sch:changeFields>
     <sch:clientSideController></sch:clientSideController>
     <sch:serverSideController></sch:serverSideController>
     <sch:objectType isRef="true">ClientAgreement</sch:objectType>
+    <sch:pageAreas/>
     <sch:fields>
         <sch:BmfPageField>
             <sch:name>AgreementNumber</sch:name>
@@ -34,7 +35,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Edit</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>合同号</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -76,6 +76,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>OuterAgreementNumber</sch:name>
@@ -84,7 +86,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Edit</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>外部合同号</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -126,6 +127,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>QuoteDate</sch:name>
@@ -134,7 +137,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>DateTime</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>生成时间</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -176,6 +178,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>ContractType</sch:name>
@@ -184,7 +188,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Edit</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>Contract Type</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -226,6 +229,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>Status</sch:name>
@@ -234,7 +239,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Select</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>Status</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -276,6 +280,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
             <sch:bmfDomain isRef="true">AgreementStatus</sch:bmfDomain>
         </sch:BmfPageField>
         <sch:BmfPageField>
@@ -285,7 +291,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>DateTime</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>StatusDate</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -327,6 +332,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>RateDate</sch:name>
@@ -335,7 +342,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>DateTime</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>核保时间</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -377,6 +383,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>IssueDate</sch:name>
@@ -385,7 +393,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>DateTime</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>签发时间</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -427,6 +434,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>FollowupDate</sch:name>
@@ -435,7 +444,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>DateTime</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>回访日期</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -477,6 +485,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>FreeLookEndDate</sch:name>
@@ -485,7 +495,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Date</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>犹豫期截至日期</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -527,6 +536,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>SurrenderDate</sch:name>
@@ -535,7 +546,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Date</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>赎回日期</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -577,6 +587,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>IsLocked</sch:name>
@@ -585,7 +597,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Select</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>IsLocked</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -627,6 +638,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
             <sch:bmfDomain isRef="true">YesNo</sch:bmfDomain>
         </sch:BmfPageField>
         <sch:BmfPageField>
@@ -636,7 +649,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Section Header Begin</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>合同金额</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -678,6 +690,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>Copies</sch:name>
@@ -686,7 +700,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Edit</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>份数(保险)</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -728,6 +741,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>PrincipalValue</sch:name>
@@ -736,7 +751,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Edit</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>本金</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -778,6 +792,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>CashValue</sch:name>
@@ -786,7 +802,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Edit</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>合同价值</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -828,6 +843,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>SurrenderValue</sch:name>
@@ -836,7 +853,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Edit</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>赎回金额</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -878,6 +894,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>ArriveValue</sch:name>
@@ -886,7 +904,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Edit</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>实际到账金额</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -928,6 +945,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>RefundValue</sch:name>
@@ -936,7 +955,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Edit</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>退款手续费</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -978,6 +996,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>TotalGain</sch:name>
@@ -986,7 +1006,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Edit</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>累计收益</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -1028,6 +1047,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>LastGain</sch:name>
@@ -1036,7 +1057,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Edit</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>昨日收益</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -1078,6 +1098,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>LastGainDate</sch:name>
@@ -1086,7 +1108,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Date</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>昨日日期</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -1128,6 +1149,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>AccountFacts</sch:name>
@@ -1136,7 +1159,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>TextArea</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>每日收益明细</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -1178,6 +1200,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name></sch:name>
@@ -1186,7 +1210,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Section Header End</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>合同金额</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -1228,6 +1251,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
     </sch:fields>
     <sch:variables/>

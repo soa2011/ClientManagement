@@ -6,8 +6,8 @@
     <sch:pageCondition></sch:pageCondition>
     <sch:title></sch:title>
     <sch:seqNumber>1500</sch:seqNumber>
-    <sch:tableName>ClientAccountView</sch:tableName>
-    <sch:quoteDisplay>false</sch:quoteDisplay>
+    <sch:objectTypeName>ClientAccountView</sch:objectTypeName>
+    <sch:display>false</sch:display>
     <sch:labelColWidth>0</sch:labelColWidth>
     <sch:valueColWidth>0</sch:valueColWidth>
     <sch:numberOfColumns>0</sch:numberOfColumns>
@@ -19,13 +19,14 @@
     <sch:modifyResource></sch:modifyResource>
     <sch:displayResource2></sch:displayResource2>
     <sch:modifyResource2></sch:modifyResource2>
-    <sch:prevPage></sch:prevPage>
-    <sch:nextPage></sch:nextPage>
     <sch:path></sch:path>
     <sch:description></sch:description>
+    <sch:changeType></sch:changeType>
+    <sch:changeFields></sch:changeFields>
     <sch:clientSideController></sch:clientSideController>
     <sch:serverSideController></sch:serverSideController>
     <sch:objectType isRef="true">ClientAccountView</sch:objectType>
+    <sch:pageAreas/>
     <sch:fields>
         <sch:BmfPageField>
             <sch:name>AccountNumber</sch:name>
@@ -34,7 +35,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Edit</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>AccountNumber</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -76,6 +76,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>BalanceDirection</sch:name>
@@ -84,7 +86,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Edit</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>BalanceDirection</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -126,6 +127,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>InitialBalance</sch:name>
@@ -134,7 +137,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Edit</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>InitialBalance</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -176,6 +178,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>DebitAmount</sch:name>
@@ -184,7 +188,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Edit</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>DebitAmount</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -226,6 +229,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>CreditAmount</sch:name>
@@ -234,7 +239,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Edit</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>CreditAmount</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -276,6 +280,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>AcctCombCode</sch:name>
@@ -284,7 +290,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Edit</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>AcctCombCode</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -326,6 +331,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>ExternalAcctNumber</sch:name>
@@ -334,7 +341,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Edit</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>ExternalAcctNumber</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -376,6 +382,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>AccCode</sch:name>
@@ -384,7 +392,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Edit</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>AccCode</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -426,6 +433,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>AccType</sch:name>
@@ -434,7 +443,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Edit</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>AccType</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -476,6 +484,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>AccStatus</sch:name>
@@ -484,7 +494,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Edit</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>AccStatus</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -526,6 +535,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>FundStatus</sch:name>
@@ -534,7 +545,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Edit</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>FundStatus</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -576,6 +586,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>OpenDate</sch:name>
@@ -584,7 +596,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Date</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>OpenDate</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -626,6 +637,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>OpenBy</sch:name>
@@ -634,7 +647,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Edit</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>OpenBy</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -676,6 +688,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>CloseDate</sch:name>
@@ -684,7 +698,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Date</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>CloseDate</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -726,6 +739,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>CloseBy</sch:name>
@@ -734,7 +749,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Edit</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>CloseBy</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -776,6 +790,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>SubAccCode</sch:name>
@@ -784,7 +800,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Edit</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>SubAccCode</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -826,6 +841,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>SubAccName</sch:name>
@@ -834,7 +851,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Edit</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>SubAccName</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -876,6 +892,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>AccountDate</sch:name>
@@ -884,7 +902,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Edit</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>AccountDate</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -926,6 +943,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>Currency</sch:name>
@@ -934,7 +953,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Edit</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>Currency</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -976,6 +994,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>SubCode</sch:name>
@@ -984,7 +1004,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Edit</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>SubCode</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -1026,6 +1045,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>OverFlag</sch:name>
@@ -1034,7 +1055,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Edit</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>OverFlag</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -1076,6 +1096,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
     </sch:fields>
     <sch:variables/>

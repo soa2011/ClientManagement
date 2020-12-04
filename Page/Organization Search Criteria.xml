@@ -6,8 +6,8 @@
     <sch:pageCondition></sch:pageCondition>
     <sch:title></sch:title>
     <sch:seqNumber>2900</sch:seqNumber>
-    <sch:tableName>Client</sch:tableName>
-    <sch:quoteDisplay>false</sch:quoteDisplay>
+    <sch:objectTypeName>Client</sch:objectTypeName>
+    <sch:display>false</sch:display>
     <sch:labelColWidth>0</sch:labelColWidth>
     <sch:valueColWidth>0</sch:valueColWidth>
     <sch:numberOfColumns>0</sch:numberOfColumns>
@@ -19,13 +19,14 @@
     <sch:modifyResource></sch:modifyResource>
     <sch:displayResource2></sch:displayResource2>
     <sch:modifyResource2></sch:modifyResource2>
-    <sch:prevPage></sch:prevPage>
-    <sch:nextPage></sch:nextPage>
     <sch:path></sch:path>
     <sch:description></sch:description>
+    <sch:changeType></sch:changeType>
+    <sch:changeFields></sch:changeFields>
     <sch:clientSideController></sch:clientSideController>
     <sch:serverSideController></sch:serverSideController>
     <sch:objectType isRef="true">Client</sch:objectType>
+    <sch:pageAreas/>
     <sch:fields>
         <sch:BmfPageField>
             <sch:name>ClientType</sch:name>
@@ -34,7 +35,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Select</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>类型</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -76,6 +76,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
             <sch:bmfDomain isRef="true">ClientType</sch:bmfDomain>
         </sch:BmfPageField>
         <sch:BmfPageField>
@@ -85,7 +87,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Edit</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>Long</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -127,6 +128,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>FirstName</sch:name>
@@ -135,7 +138,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Edit</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>机构名称</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -177,6 +179,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>PostalAddress.State</sch:name>
@@ -185,7 +189,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Edit</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>State</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -227,6 +230,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>PostalAddress.City</sch:name>
@@ -235,7 +240,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Edit</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>City</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -277,6 +281,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>PostalAddress.PostalCode</sch:name>
@@ -285,7 +291,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Edit</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>ZIP Code</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -327,6 +332,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>TelephoneNumber.PhoneNumber</sch:name>
@@ -335,7 +342,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Edit</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>Phone Number</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -377,6 +383,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>FEIN</sch:name>
@@ -385,7 +393,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Edit</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>FEIN</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -427,6 +434,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
         <sch:BmfPageField>
             <sch:name>ClientClassification.Classification</sch:name>
@@ -435,7 +444,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Select</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>类别</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -477,6 +485,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
             <sch:bmfDomain isRef="true">ClientClassification</sch:bmfDomain>
         </sch:BmfPageField>
         <sch:BmfPageField>
@@ -486,7 +496,6 @@
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
             <sch:fieldType>Edit</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>合同号</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -528,6 +537,8 @@
             <sch:fieldLinkExpression></sch:fieldLinkExpression>
             <sch:filterCriteria></sch:filterCriteria>
             <sch:eventHandler></sch:eventHandler>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfPageField>
     </sch:fields>
     <sch:variables/>

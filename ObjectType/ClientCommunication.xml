@@ -8,7 +8,13 @@
     <sch:accessMode></sch:accessMode>
     <sch:primaryField></sch:primaryField>
     <sch:primaryKey></sch:primaryKey>
+    <sch:baseTables></sch:baseTables>
+    <sch:viewInfo></sch:viewInfo>
+    <sch:hierarchyColumn></sch:hierarchyColumn>
     <sch:description></sch:description>
+    <sch:aggrRoot>false</sch:aggrRoot>
+    <sch:changeType></sch:changeType>
+    <sch:changeFields></sch:changeFields>
     <sch:bmfRelationships>
         <sch:BmfObjectRelationship>
             <sch:type>REF_TO_ONE</sch:type>
@@ -47,6 +53,8 @@
             <sch:seqPattern></sch:seqPattern>
             <sch:calcExpr></sch:calcExpr>
             <sch:description>计划时间</sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
             <sch:name>ActualDate</sch:name>
@@ -61,6 +69,8 @@
             <sch:seqPattern></sch:seqPattern>
             <sch:calcExpr></sch:calcExpr>
             <sch:description>实际时间</sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
             <sch:name>SendTo</sch:name>
@@ -75,6 +85,8 @@
             <sch:seqPattern></sch:seqPattern>
             <sch:calcExpr></sch:calcExpr>
             <sch:description>相关关键字（SMS：手机号，微信：微信号）</sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
             <sch:name>Title</sch:name>
@@ -89,6 +101,8 @@
             <sch:seqPattern></sch:seqPattern>
             <sch:calcExpr></sch:calcExpr>
             <sch:description>主题</sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
             <sch:name>Medium</sch:name>
@@ -103,6 +117,8 @@
             <sch:seqPattern></sch:seqPattern>
             <sch:calcExpr></sch:calcExpr>
             <sch:description>渠道（SMS、站内信等）</sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
             <sch:name>Category</sch:name>
@@ -117,6 +133,8 @@
             <sch:seqPattern></sch:seqPattern>
             <sch:calcExpr></sch:calcExpr>
             <sch:description>业务类别</sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
             <sch:name>Status</sch:name>
@@ -131,6 +149,8 @@
             <sch:seqPattern></sch:seqPattern>
             <sch:calcExpr></sch:calcExpr>
             <sch:description>状态</sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
             <sch:name>Content</sch:name>
@@ -145,6 +165,8 @@
             <sch:seqPattern></sch:seqPattern>
             <sch:calcExpr></sch:calcExpr>
             <sch:description>内容</sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
             <sch:name>CreatedBy</sch:name>
@@ -159,6 +181,8 @@
             <sch:seqPattern></sch:seqPattern>
             <sch:calcExpr></sch:calcExpr>
             <sch:description></sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
             <sch:name>CreatedOn</sch:name>
@@ -173,6 +197,8 @@
             <sch:seqPattern></sch:seqPattern>
             <sch:calcExpr></sch:calcExpr>
             <sch:description></sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
             <sch:name>UpdatedBy</sch:name>
@@ -187,6 +213,8 @@
             <sch:seqPattern></sch:seqPattern>
             <sch:calcExpr></sch:calcExpr>
             <sch:description></sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
         <sch:BmfObjectField>
             <sch:name>UpdatedOn</sch:name>
@@ -201,6 +229,8 @@
             <sch:seqPattern></sch:seqPattern>
             <sch:calcExpr></sch:calcExpr>
             <sch:description></sch:description>
+            <sch:changeType></sch:changeType>
+            <sch:changeFields></sch:changeFields>
         </sch:BmfObjectField>
     </sch:bmfFields>
     <sch:bmfRules>
@@ -211,10 +241,12 @@
             <sch:fieldName></sch:fieldName>
             <sch:ruleType>Update</sch:ruleType>
             <sch:ruleCode></sch:ruleCode>
-            <sch:ruleLanguage></sch:ruleLanguage>
+            <sch:ruleLanguage>Groovy</sch:ruleLanguage>
             <sch:ruleBody>clientAggrManager.updateClientComm(context)</sch:ruleBody>
             <sch:seqNumber>1</sch:seqNumber>
             <sch:description></sch:description>
         </sch:BmfRule>
     </sch:bmfRules>
+    <sch:bmfIndexRules/>
+    <sch:objectTypeConfigs/>
 </sch:ObjectType>

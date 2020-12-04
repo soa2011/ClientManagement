@@ -6,8 +6,8 @@
     <sch:pageCondition></sch:pageCondition>
     <sch:title></sch:title>
     <sch:seqNumber>0</sch:seqNumber>
-    <sch:tableName></sch:tableName>
-    <sch:quoteDisplay>false</sch:quoteDisplay>
+    <sch:objectTypeName></sch:objectTypeName>
+    <sch:display>false</sch:display>
     <sch:labelColWidth>0</sch:labelColWidth>
     <sch:valueColWidth>0</sch:valueColWidth>
     <sch:numberOfColumns>0</sch:numberOfColumns>
@@ -19,12 +19,13 @@
     <sch:modifyResource></sch:modifyResource>
     <sch:displayResource2></sch:displayResource2>
     <sch:modifyResource2></sch:modifyResource2>
-    <sch:prevPage></sch:prevPage>
-    <sch:nextPage></sch:nextPage>
     <sch:path></sch:path>
     <sch:description></sch:description>
+    <sch:changeType></sch:changeType>
+    <sch:changeFields></sch:changeFields>
     <sch:clientSideController></sch:clientSideController>
     <sch:serverSideController></sch:serverSideController>
+    <sch:pageAreas/>
     <sch:fields/>
     <sch:variables/>
     <sch:treeNodes>
@@ -36,7 +37,6 @@
             <sch:columns>Name</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
@@ -47,7 +47,6 @@
             <sch:columns>#count</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
@@ -58,7 +57,6 @@
             <sch:columns>FirstName,LastName</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>false</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
@@ -69,7 +67,6 @@
             <sch:columns>#count</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
@@ -80,7 +77,6 @@
             <sch:columns>AddressType,AddressLine1,City,State,PostalCode</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
@@ -91,7 +87,6 @@
             <sch:columns>#count</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
@@ -102,7 +97,6 @@
             <sch:columns>Location,EMailType</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
@@ -113,7 +107,6 @@
             <sch:columns>#count</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
@@ -124,7 +117,6 @@
             <sch:columns>PhoneNumber,PhoneType</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
@@ -135,7 +127,6 @@
             <sch:columns>#count</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
@@ -146,7 +137,6 @@
             <sch:columns>RelatedTo,RelationshipTypeFrom</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
@@ -157,7 +147,6 @@
             <sch:columns></sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
@@ -168,7 +157,6 @@
             <sch:columns>AgreementNumber,ProductOfferingId</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>false</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
@@ -179,7 +167,6 @@
             <sch:columns>#count</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
@@ -190,7 +177,6 @@
             <sch:columns>TransType,TransAmount</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>false</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
@@ -201,7 +187,6 @@
             <sch:columns></sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
@@ -212,7 +197,6 @@
             <sch:columns>UnitNumber,Description</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
@@ -223,7 +207,6 @@
             <sch:columns>#count</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
@@ -234,7 +217,6 @@
             <sch:columns>AccountNumber,CurrentBalance</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>false</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
@@ -245,7 +227,6 @@
             <sch:columns>#count</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
@@ -256,7 +237,6 @@
             <sch:columns>AccountNumber,BankId</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>false</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
@@ -267,7 +247,6 @@
             <sch:columns>#count</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
@@ -278,7 +257,6 @@
             <sch:columns>PlannedDate,Category</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>false</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
@@ -289,7 +267,6 @@
             <sch:columns>#count</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>false</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
@@ -300,7 +277,6 @@
             <sch:columns>UnitNumber,DiaryDate</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>false</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
@@ -311,7 +287,6 @@
             <sch:columns>#count</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
@@ -322,7 +297,6 @@
             <sch:columns>Classification, EffectiveDate</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
@@ -333,7 +307,6 @@
             <sch:columns>#count</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
             <sch:description></sch:description>
         </sch:BmfTreeNode>
         <sch:BmfTreeNode>
@@ -344,7 +317,6 @@
             <sch:columns>ClientId, CustomerLevel</sch:columns>
             <sch:action></sch:action>
             <sch:quoteDisplay>true</sch:quoteDisplay>
-            <sch:policyDisplay>true</sch:policyDisplay>
             <sch:description></sch:description>
         </sch:BmfTreeNode>
     </sch:treeNodes>
